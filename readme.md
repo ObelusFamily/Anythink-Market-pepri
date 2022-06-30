@@ -9,5 +9,4 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
 ## First setup
-
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+To setup the dev environment make sure to install docker if you don't already have it, then run docker-compose up in the root folder of this repo. This will build the front and back ends, inculding installing their dependecies and fire up the BE on port 3000 localhost and FE on port 3001
